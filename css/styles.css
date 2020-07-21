@@ -1,8 +1,12 @@
 body {
     overflow-x: hidden;
     margin: 0;
-
 }
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
 .container {
     background-color: rgb(241, 242, 242);
     height: calc(100vh - 3rem) ;
