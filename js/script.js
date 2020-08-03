@@ -1,10 +1,10 @@
 // Wrap every letter in a span
-var textWrapper = document.querySelector('.ml2');
+var textWrapper = document.querySelector('.al2');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: false})
   .add({
-    targets: '.ml2 .letter',
+    targets: '.al2 .letter',
     scale: [4,1],
     opacity: [0,1],
     translateZ: 0,
@@ -12,7 +12,7 @@ anime.timeline({loop: false})
     duration: 950,
     delay: (el, i) => 70*i
   }).add({
-    targets: '.ml2',
+    targets: '.al2',
     opacity: 1,
     duration: 1000,
     easing: "easeOutExpo",
