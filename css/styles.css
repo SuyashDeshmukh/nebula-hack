@@ -1,3 +1,6 @@
+body {
+    background-color: #E8F8F5;
+}
 .title{
     color: rgba(38, 38, 129, 0.822) !important;
     font-size: 45px !important;
@@ -18,4 +21,9 @@ button {
 }
 .card-header > h2 > button {
     text-align: left;
+    color: black;
+    font-weight: bold;
+}
+.card-body > ol > li {
+    margin-top: .5rem;
 }
